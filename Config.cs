@@ -15,8 +15,6 @@ namespace SimpleLauncher
 
         public ProxyConfig ProxyConfig = new ProxyConfig("localhost:8080", true);
         
-
-
         public bool ProxyOnly = false;
 
         

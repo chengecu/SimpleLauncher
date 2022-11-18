@@ -161,7 +161,7 @@ namespace SimpleLauncher.Common
             }
 
             //开始备份
-            File.Copy(GetAbsolutePath(FILE_NAME), backup_f);
+            File.Copy(GetAbsolutePath(FILE_NAME), backup_f,true);
 
 
 
